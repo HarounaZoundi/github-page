@@ -1,29 +1,19 @@
 import React from 'react';
-import { 
-    BrowserRouter as Router, 
-    Switch, 
-    Route, 
-    Link,
-    NavLink
-  } from 'react-router-dom';
 function Navigation() {
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow mb-3">
+      <nav className="navbar navbar-expand-sm d-flex justify-content-center navbar-dark bg-dark shadow mb-3">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <NavLink className="nav-link" exact to="/posts/new">
-              Projects
-            </NavLink>
+        <li class="nav-item">
+            <a class="nav-link " href="#home">Home</a>
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" exact to="/about-us">
-              Skills
-            </NavLink>
+          <li class="nav-item">
+            <a class="nav-link " href="#Projects">Project</a>
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" exact to="/about-us">
-              Contact
-            </NavLink>
+          <li class="nav-item">
+            <a class="nav-link " href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#Contact">Contact</a>
           </li>
         </ul>
       </nav>

@@ -1,22 +1,22 @@
 import React from 'react';
-import { 
-  BrowserRouter as Router, 
-  Switch, 
-  Route, 
-  Link,
-  NavLink
-} from 'react-router-dom';
 import './App.css';
 import AboutMe from './components/About';
-import Navigation from './components/Navigation'
+import Navigation from './components/Navigation';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-  <Router>
-  <Navigation />
-  <AboutMe />
- 
-</Router>
+    <div className ="content-wrapper">
+      <Navigation />
+      <AboutMe />
+      <Projects/>
+      <Skills/>
+      <Contact/>
+      <Footer/>
+    </div>
   );
 }
 

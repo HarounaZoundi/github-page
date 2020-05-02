@@ -1,0 +1,11 @@
+.footer{
+    color: #ffffff;
+	text-align: center;
+    background-color: #2B2D42;
+    overflow: hidden;
+    min-height: fit-content;
+}
+.links-wrapper{
+    padding: 10px !important;
+    margin: 0px !important;
+}
